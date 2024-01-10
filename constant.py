@@ -39,5 +39,6 @@ def RATE_QRY():
 
 COURSERESULT_YEARSEM = ["1102", "1111", "1112"]
 
+
 def COURSERESULT_CSV(sem):
     return sem + "CourseResult.csv"
