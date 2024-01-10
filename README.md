@@ -43,8 +43,9 @@ python main.py
 ```
 
 If you encounter in ssl error, please use `openssl.conf` as your connection configuration file.
-Yout entry point will be
+Your command should be like this:
 
 ```sh
-OPENSSL_CONF=openssl.conf python main.py
+export OPENSSL_CONF=./openssl.conf
+python main.py
 ```
