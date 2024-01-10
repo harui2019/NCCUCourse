@@ -11,3 +11,7 @@ result*/
 *.log
 
 *.db
+
+# Since 112-2, it needs to be prepared mannually
+unit.json
+
